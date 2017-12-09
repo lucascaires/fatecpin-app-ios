@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="145" id="KGk-i7-Jjw" customClass="JobsTableViewCell" customModule="FatecPIN" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="465" height="146"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="465" height="145.66666666666666"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oqF-7V-cnS">
+                        <rect key="frame" x="16" y="11" width="433" height="124"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="22/10/10 às 11h11" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCp-EF-veS">
+                                <rect key="frame" x="314" y="8" width="111" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.41645197735892403" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed consectetur nisl" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4yk-Cd-D9M">
+                                <rect key="frame" x="8" y="68" width="417" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Fatec - Ribeirão Preto / SP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QLT-iN-L9l">
+                                <rect key="frame" x="8" y="8" width="298" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.41645197735892403" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Programador Front-End" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DaJ-zg-NX1">
+                                <rect key="frame" x="8" y="33" width="417" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.24948723380646662" green="0.50433493393497086" blue="0.64306392766497456" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OIi-Wd-nlr">
+                                <rect key="frame" x="0.0" y="120" width="433" height="4"/>
+                                <color key="backgroundColor" red="0.25582277774810791" green="0.5106235146522522" blue="0.64367020130157471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="PCp-EF-veS" secondAttribute="trailing" constant="8" id="0Gc-ZH-klX"/>
+                            <constraint firstAttribute="trailing" secondItem="OIi-Wd-nlr" secondAttribute="trailing" id="3M2-CE-EtB"/>
+                            <constraint firstItem="4yk-Cd-D9M" firstAttribute="top" secondItem="oqF-7V-cnS" secondAttribute="top" constant="68" id="3iW-As-znr"/>
+                            <constraint firstItem="DaJ-zg-NX1" firstAttribute="leading" secondItem="oqF-7V-cnS" secondAttribute="leading" constant="8" id="FFH-88-BVL"/>
+                            <constraint firstAttribute="trailing" secondItem="DaJ-zg-NX1" secondAttribute="trailing" constant="8" id="KDc-Y9-QYl"/>
+                            <constraint firstItem="4yk-Cd-D9M" firstAttribute="leading" secondItem="oqF-7V-cnS" secondAttribute="leading" constant="8" id="Moy-Aa-TTa"/>
+                            <constraint firstItem="QLT-iN-L9l" firstAttribute="top" secondItem="oqF-7V-cnS" secondAttribute="top" constant="8" id="Pi1-J7-aH0"/>
+                            <constraint firstItem="OIi-Wd-nlr" firstAttribute="leading" secondItem="oqF-7V-cnS" secondAttribute="leading" id="Qfn-uK-rSP"/>
+                            <constraint firstAttribute="bottom" secondItem="OIi-Wd-nlr" secondAttribute="bottom" id="XTR-3H-ct0"/>
+                            <constraint firstItem="OIi-Wd-nlr" firstAttribute="top" secondItem="4yk-Cd-D9M" secondAttribute="bottom" constant="11" id="ZAI-T2-Jkj"/>
+                            <constraint firstItem="OIi-Wd-nlr" firstAttribute="top" secondItem="oqF-7V-cnS" secondAttribute="top" constant="120" id="b3o-4g-RVh"/>
+                            <constraint firstItem="4yk-Cd-D9M" firstAttribute="leading" secondItem="DaJ-zg-NX1" secondAttribute="leading" id="g4t-xP-aQy"/>
+                            <constraint firstAttribute="trailing" secondItem="DaJ-zg-NX1" secondAttribute="trailing" constant="8" id="hGw-m8-s4w"/>
+                            <constraint firstAttribute="trailing" secondItem="4yk-Cd-D9M" secondAttribute="trailing" constant="8" id="mvb-Ba-W80"/>
+                            <constraint firstItem="PCp-EF-veS" firstAttribute="top" secondItem="oqF-7V-cnS" secondAttribute="top" constant="8" id="tgX-5v-1nw"/>
+                            <constraint firstItem="PCp-EF-veS" firstAttribute="leading" secondItem="QLT-iN-L9l" secondAttribute="trailing" constant="7.6666666666666856" id="vIG-iy-Hc8"/>
+                            <constraint firstItem="DaJ-zg-NX1" firstAttribute="leading" secondItem="oqF-7V-cnS" secondAttribute="leading" constant="8" id="vqq-ZN-ZAj"/>
+                            <constraint firstItem="DaJ-zg-NX1" firstAttribute="top" secondItem="oqF-7V-cnS" secondAttribute="top" constant="33" id="yW9-WE-A3I"/>
+                            <constraint firstItem="QLT-iN-L9l" firstAttribute="leading" secondItem="oqF-7V-cnS" secondAttribute="leading" constant="8" id="ztI-h7-Ook"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="oqF-7V-cnS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="6vU-To-0XX"/>
+                    <constraint firstAttribute="trailing" secondItem="oqF-7V-cnS" secondAttribute="trailing" constant="16" id="FC3-31-awQ"/>
+                    <constraint firstItem="oqF-7V-cnS" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="HwN-qI-WgZ"/>
+                    <constraint firstItem="oqF-7V-cnS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="frf-0K-60r"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="JobCompany" destination="QLT-iN-L9l" id="Hzc-bh-d89"/>
+                <outlet property="JobDate" destination="PCp-EF-veS" id="T5G-kO-FBL"/>
+                <outlet property="JobDescription" destination="4yk-Cd-D9M" id="0Am-3u-sTt"/>
+                <outlet property="JobTitle" destination="DaJ-zg-NX1" id="Nd5-nA-6TH"/>
+            </connections>
+            <point key="canvasLocation" x="73" y="43"/>
+        </tableViewCell>
+    </objects>
+</document>

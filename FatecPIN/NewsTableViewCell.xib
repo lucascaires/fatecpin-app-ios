@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="KGk-i7-Jjw" customClass="NewsTableViewCell2" customModule="FatecPIN" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="430" height="88"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="430" height="87.666666666666671"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum dolor sit am Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit ametet" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKS-4F-z1i">
+                        <rect key="frame" x="148" y="14" width="282" height="20"/>
+                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x5s-jA-IGr">
+                        <rect key="frame" x="148" y="0.0" width="24.666666666666657" height="13.333333333333334"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fachada" translatesAutoresizingMaskIntoConstraints="NO" id="Vjt-7f-KLd">
+                        <rect key="frame" x="0.0" y="0.0" width="140" height="89"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="140" id="uiE-Th-Lhh"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zh6-eW-NkY">
+                        <rect key="frame" x="148" y="36" width="282" height="46.666666666666657"/>
+                        <string key="text">Lorem ipsum dolor siet amet texto qualquer aqui Lorem ipsum dolor siet amet texto qualquer aqui Lorem ipsum dolor siet amet texto qualquer aqui Lorem ipsum dolor siet amet texto qualquer aqui </string>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Vjt-7f-KLd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="0fv-dF-BDg"/>
+                    <constraint firstAttribute="trailing" secondItem="iKS-4F-z1i" secondAttribute="trailing" id="2Tz-co-MNa"/>
+                    <constraint firstAttribute="trailing" secondItem="zh6-eW-NkY" secondAttribute="trailing" id="9ZU-ms-jQd"/>
+                    <constraint firstItem="zh6-eW-NkY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="148" id="CRF-2p-F5f"/>
+                    <constraint firstAttribute="bottom" secondItem="iKS-4F-z1i" secondAttribute="bottom" constant="53.666666666666671" id="CZh-fO-Z9Z"/>
+                    <constraint firstItem="Vjt-7f-KLd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Ea0-nL-ITj"/>
+                    <constraint firstItem="zh6-eW-NkY" firstAttribute="leading" secondItem="iKS-4F-z1i" secondAttribute="leading" id="JDJ-gz-P1G"/>
+                    <constraint firstItem="x5s-jA-IGr" firstAttribute="top" secondItem="Vjt-7f-KLd" secondAttribute="top" id="Shu-aB-8TT"/>
+                    <constraint firstItem="iKS-4F-z1i" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="148" id="Tbl-IH-Yk3"/>
+                    <constraint firstAttribute="bottom" secondItem="zh6-eW-NkY" secondAttribute="bottom" constant="5.0000000000000142" id="U6b-nc-Lz4"/>
+                    <constraint firstItem="Vjt-7f-KLd" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" constant="1.3333333333333286" id="cNc-LG-ige"/>
+                    <constraint firstItem="iKS-4F-z1i" firstAttribute="leading" secondItem="x5s-jA-IGr" secondAttribute="leading" id="dAo-H7-LEp"/>
+                    <constraint firstAttribute="bottom" secondItem="Vjt-7f-KLd" secondAttribute="bottom" constant="-1.3333333333333286" id="wIO-Sc-Plo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="NewsDate" destination="x5s-jA-IGr" id="Wsc-E5-X3o"/>
+                <outlet property="NewsImage" destination="Vjt-7f-KLd" id="i7A-eP-d7w"/>
+                <outlet property="NewsText" destination="zh6-eW-NkY" id="FRY-Ld-bum"/>
+                <outlet property="NewsTitle" destination="iKS-4F-z1i" id="ph2-lA-SAB"/>
+            </connections>
+            <point key="canvasLocation" x="86" y="102"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="fachada" width="704" height="498"/>
+    </resources>
+</document>
